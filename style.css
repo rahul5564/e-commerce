@@ -10,7 +10,7 @@
 .name-logo{
     grid-column: 1/2;
     grid-row: 1/2;
-    font-size: 35px;
+    font-size: 25px;
 }
 .nav-ul{
     grid-column: 2/4;
