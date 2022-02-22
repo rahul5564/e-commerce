@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: grid;
+    background-color: #9bb7d4;
+    padding: 0.8rem;
+}
+.name-logo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 35px;
+}
+.nav-ul{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    list-style-type: none;
+    display: flex;
+}
+.nav-a{
+    padding: 2rem;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.nav-side{
+    grid-column: 5/6;
+    grid-row: 1/2;
+    font-size: 25px;
+}
+.nav-join{
+    text-decoration: none; 
+    color: black;
+}
+.mg{
+    margin-left: 2rem;
+}
+.pointer{
+    cursor: pointer;
+}
+.main-pic{
+    position: relative;
+    text-align: center;
+    color: white;
+    opacity: 0.6;
+    font-family: monospace;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.line-h{
+    line-height: 2rem;
+}
+.pic-info{
+    color: #CD212A;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.info{
+    color: #FA7A35;
+    text-transform: uppercase;
+}
+.pic-btn{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    font-size: 30px;
+    border: 1px solid orangered;
+    background-color: #FA7A35;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height: 1.5rem;
+}
+.pic-btn:hover{
+    text-align: center;
+    background-color: black;
+    color: wheat;
+}
