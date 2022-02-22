@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: grid;
+    background-color: #9bb7d4;
+    padding: 0.8rem;
+    font-size: 25px;
+}
+.name-logo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 35px;
+}
+.nav-ul{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    list-style-type: none;
+    display: flex;
+    
+}
+.nav-a{
+    padding: 2rem;
+    text-decoration: none;
+    color: black;
+}
+.nav-side{
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+.nav-join{
+    text-decoration: none; 
+    color: black;
+}
+.mg{
+    margin-left: 2rem;
+}
+.pointer{
+    cursor: pointer;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.wishlist {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.wishlist:hover {
+    border-radius: 50%;
+    background-color: rgb(136, 136, 149);
+}
+
+.card-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-title,
+.card-pricing {
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.card-pricing {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+    margin-top: 0;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+}
+.btn-primary{
+    background-color: blue;
+    color: black;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+}
+.main{
+    display: grid;
+}
+.aside{
+    grid-column: 1/2;
+    grid-row: 2/6;
+}
+.aside-head{
+    display: flex;
+    gap: 2rem;
+}
+.aside p,input,label,h2{
+    padding: 1rem;
+    margin-left: 1rem;
+    font-size: 20px;
+}
+.main-info{
+    display: grid;
+     grid-column: 2/3;
+     grid-row: 2/4;
+}
+.main-info2{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+.main-info3{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.primary{
+    color: blue;
+    cursor: pointer;
+    opacity: 0.8;
+}
