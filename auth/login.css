@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: grid;
+    background-color: #9bb7d4;
+    padding: 0.8rem;
+}
+.name-logo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 25px;
+}
+.nav-ul{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    list-style-type: none;
+    display: flex;
+}
+.nav-a{
+    padding: 2rem;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav-side{
+    grid-column: 5/6;
+    grid-row: 1/2;
+    font-size: 20px;
+}
+.nav-join{
+    text-decoration: none; 
+    color: black;
+}
+.mg{
+    margin-left: 2rem;
+}
+.pointer{
+    cursor: pointer;
+}
+.login-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    border: 1px solid black;
+    padding: 40px 0px;
+    font-weight: bold;
+    background-color: gainsboro;
+}
+.inp-width{
+    width: 20%;
+    margin: 0.5rem;
+    height: 30px;
+}
+.login-head{
+    display: flex;
+}
+.x{
+    padding-left: 10rem;
+}
+.login{
+    width: 50%;
+}
+.btn{
+    background-color: blue;
+    width: 10%;
+    height: 50px;
+    border-radius: 5px;
+}
